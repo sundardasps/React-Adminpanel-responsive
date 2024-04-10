@@ -7,6 +7,7 @@ import {
   Avatar,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import UserDp from "../../public/4294b8bdd9f891d992f6c0a678b43ef7.png";
 
 function NavList() {
   return (
@@ -79,7 +80,7 @@ function NavList() {
       </div>
       <div className="relative mr-auto font-medium w-9 cursor-pointer">
         <Avatar
-          src="../../public/4294b8bdd9f891d992f6c0a678b43ef7.png"
+          src={UserDp}
           alt="avatar"
           size="sm"
         />
